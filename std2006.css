@@ -1,0 +1,78 @@
+.h1{ font-size:14pt;line-height: 130%}
+.h2{ font-size:9pt;line-height: 130%}
+.t1 {  font-size: 9pt; font-style: italic; line-height: 200%; color: #6666FF}
+.K8{ font-size: 8px; line-height: 130%}
+.KB8{ font-size: 8px}
+.K9{ font-size: 9px; line-height: 130%}
+.KB9{ font-size: 9px}
+.K10 { font-size: 10px; line-height: 130%}
+.K12 { font-size: 12px;  line-height: 130%}
+.KB12 { font-size:12px}
+.K14 { font-size: 14px;  line-height: 130%}
+.KB14 { font-size:14px}
+.M12 { font-size: 12px; line-height: 130%}
+.MB12 { font-size:12px}
+.M14 { font-size: 14px; line-height: 130%}
+.MB14 { font-size:14px}
+.R10 { font-size: 10px; line-height: 130%}
+.R12 { font-size: 12px;  line-height: 130%}
+.R14 { font-size: 14px; line-height: 130%}
+.body {
+	background-image: url(img/top-back2.jpg);
+	background-repeat: no-repeat;
+}
+.svg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: move;
+  }
+  
+  .svg-scrim {
+	pointer-events: none;
+	z-index: 5;
+  }
+  
+  .proxy {
+	fill: none;
+	stroke: none;
+  }
+  
+  .controls {
+	position: fixed;
+	top: 0;
+	left: 0;  
+	padding: 12px;  
+	z-index: 10;
+	
+	.controls-button {
+	  font-weight: 700;
+	}
+  }
+  
+  .info {  
+	user-select: none;
+	pointer-events: none;
+	
+	ul {
+	  font-size: 13px;
+	  list-style-type: none;
+	  padding: 0;    
+	  line-height: 20px;    
+	  margin-top: 0;
+	}
+  }
+  
+  .svg-background {
+	fill: none;
+	stroke: none;
+  }
+  
+  .pivot {
+	fill: #ffc107;
+	stroke: rgba(0,0,0,0.5);
+	stroke-width: 2;
+	opacity: 0;
+  }
